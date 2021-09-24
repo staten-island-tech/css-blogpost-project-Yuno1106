@@ -1,9 +1,62 @@
-body {
-  /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
+.parent1 {
+  border: 5px solid rgb(0, 0, 0);
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 0px;
   background-image: url(beach.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.child1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-h1 {
-  /* sets background color around the h1 text */
-  background-color: red;
+.link1 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+===================================================== .parent2 {
+  border: 5px solid rgb(0, 0, 0);
+  height: 500px;
+  width: 500px;
+  top: 50px;
+  position: relative;
+  margin-top: 0px;
+  background-image: url(beach.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.child2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link2 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
