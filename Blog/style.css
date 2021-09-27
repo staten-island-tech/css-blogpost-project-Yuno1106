@@ -1,10 +1,12 @@
 .parent1 {
+  background-image: url(forest\ fire.jpg);
+}
+.parent {
   border: 5px solid rgb(0, 0, 0);
   height: 500px;
-  width: 500px;
+  width: 550px;
   position: relative;
-  margin-top: 0px;
-  background-image: url(forest\ fire.jpg);
+  margin: 0px auto;
   background-position: center;
   background-size: cover;
 }
@@ -34,15 +36,8 @@
 }
 
 .parent2 {
-  border: 5px solid rgb(0, 0, 0);
-  height: 500px;
-  width: 500px;
-  top: 50px;
-  position: relative;
   margin-top: 0px;
   background-image: url(heat\ pump.JPG);
-  background-position: center;
-  background-size: cover;
 }
 .child2 {
   position: absolute;
@@ -69,15 +64,7 @@
 }
 
 .parent3 {
-  border: 5px solid rgb(0, 0, 0);
-  height: 500px;
-  width: 500px;
-  top: 50px;
-  position: relative;
-  margin-top: 50px;
   background-image: url(oysters.jpg);
-  background-position: center;
-  background-size: cover;
 }
 .child3 {
   position: absolute;
