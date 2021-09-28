@@ -2,13 +2,14 @@
   background-image: url(forest\ fire.jpg);
 }
 .parent {
-  border: 5px solid rgb(0, 0, 0);
+  border: 5px solid black;
   height: 500px;
   width: 550px;
   position: relative;
   margin: 0px auto;
   background-position: center;
   background-size: cover;
+  margin-top: 50px;
 }
 .child1 {
   position: absolute;
@@ -24,7 +25,7 @@
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(32, 214, 32);
 }
 
 .text1 {
@@ -36,7 +37,6 @@
 }
 
 .parent2 {
-  margin-top: 0px;
   background-image: url(heat\ pump.JPG);
 }
 .child2 {
@@ -52,7 +52,7 @@
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: blue;
+  color: rgb(32, 214, 32);
 }
 
 .text2 {
@@ -79,7 +79,7 @@
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(32, 214, 32);
 }
 
 .text3 {
@@ -88,4 +88,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+body {
+  background-image: url(1567665.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
